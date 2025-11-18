@@ -20,10 +20,10 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
         working-directory: ./src/app
-      - name: Accept Android licenses
-        run: yes | flutter doctor --android-licenses
-      - name: Install Android SDK components
-        run: yes | $ANDROID_SDK_ROOT/tools/bin/sdkmanager "platforms;android-31" "build-tools;30.0.3"
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+        with:
+          accept-android-sdk-licenses: true
       - name: Build APK
         run: flutter build apk --release
         working-directory: ./src/app
