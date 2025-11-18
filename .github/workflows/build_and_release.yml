@@ -16,9 +16,7 @@ jobs:
           java-version: '8'
       - uses: subosito/flutter-action@v2
         with:
-          channel: 'stable'
-          flutter-version: '3.16.9'
-          cache: true
+          flutter-version: '3.38.1'
       - name: Install dependencies
         run: flutter pub get
         working-directory: ./src/app
