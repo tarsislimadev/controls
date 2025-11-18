@@ -1,4 +1,4 @@
-package com.example.tv_ir_remote
+package com.example.temp_project
 
 import io.flutter.embedding.android.FlutterActivity
 
