@@ -1,5 +1,7 @@
-package com.example.controls
+// This file was moved to `com/tarsislimadev/controls/MainActivity.kt`.
+// Kept as placeholder to avoid breaking any tooling that references the original path.
 
-import io.flutter.embedding.android.FlutterActivity
+package com.tarsislimadev.controls
 
-class MainActivity : FlutterActivity()
+// Placeholder file — original MainActivity moved. Do not add a second class here.
+
