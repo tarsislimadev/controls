@@ -20,14 +20,12 @@ jobs:
           flutter-version: '3.38.1'
       - name: Install dependencies
         run: flutter pub get
-        working-directory: ./src/app
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
         with:
           accept-android-sdk-licenses: true
       - name: Build APK
         run: flutter build apk --release
-        working-directory: ./src/app
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
