@@ -11,11 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'TV IR Remote',
+      title: 'Controls',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'TV IR Remote'),
+      home: const MyHomePage(title: 'Controls'),
     );
   }
 }
