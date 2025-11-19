@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This is a Flutter-based mobile application that functions as a TV remote control by utilizing the device's infrared (IR) sensor. The application, named `tv_ir_remote`, is designed to send pre-defined IR codes for basic TV functions like power on/off and volume control. It uses the `ir_sensor_plugin` to interact with the device's IR hardware.
+This is a Flutter-based mobile application that functions as a TV remote control by utilizing the device's infrared (IR) sensor. The application, named `controls`, is designed to send pre-defined IR codes for basic TV functions like power on/off and volume control. It uses the `ir_sensor_plugin` to interact with the device's IR hardware.
 
 The project is structured as a standard Flutter application, with support for Android, iOS, and other platforms.
 
