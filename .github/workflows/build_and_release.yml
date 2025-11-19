@@ -15,10 +15,10 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-      - name: Java and Gradle versions
-        run: |
-          java -version
-          bash ./android/gradlew -version
+      - name: Java version
+        run: java -version
+      - name: Gradle version
+        run: gradle -v
       - uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.38.1'
